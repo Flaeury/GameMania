@@ -1,0 +1,490 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+header {
+    background-color: #101010;
+    height:85px;
+}
+.logo {
+    width: 100%;
+    max-width: 60%;
+}
+.container-grid {
+    width: 75vw;
+    margin: 0 auto;
+}
+.container {
+    width: 100%;
+    max-width: 77%;
+    margin: 0 auto;
+}
+.cabecalho {
+    height: 100%;
+    justify-content: space-between;
+}
+.menu {
+    width: 450px;
+    justify-content: space-between;
+    padding-left: 40px;
+    display: flex;
+}
+.menu a {
+    font-size: 15px;  
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -0.08em;
+    font-weight: 400;
+}
+.icone-menu {
+    height: 34px;
+}
+#barras {
+    display: none;
+}
+.cabecalho input{
+    background-color: black;
+    font-family: 'Noto Sans HK', sans-serif;
+    border: none;
+    padding: 9px 100px;
+    margin: 10px 0 10px 30px;
+    border-radius: 2px 0 0 2px;
+}
+
+.cabecalho input::placeholder {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12.4px;
+    opacity: 0.9;
+    display: block;
+    width: 100%;
+}
+.cabecalho button {
+    padding: 6px 6px;
+}
+
+.initial img{
+    width: 100%;
+    max-width: 45px;
+  }
+
+.banner {
+    background-repeat: no-repeat;
+    height: 500px;
+    
+    background-position: center;
+    background-size: contain;
+}
+
+.banner-promocao {
+    background-image: url(./img/FlashSale-Banner.png) ;
+}
+.banner-gabinete {
+    background-image: url(./img/Banner\ -\ Promoção\ \(1\).png);
+}
+.banner-mouse {
+    background-image: url(./img/Banner\ para\ loja\ virtual\ ecommerce\ periféricos\ dropshiping.png);
+}
+
+.initial-pai {
+  height: 100%;
+  align-items: center;  
+  justify-content: space-between;
+  margin: 20px 0 5px 0;
+
+}
+.initial {
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.initial h1 {
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+#carrinho a {
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    background-color: #151515;
+    width: 135px;
+    height: 43px;
+    border-radius: 40px;
+    text-align: center;
+}
+#carrinho p {
+    padding-left: 11px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+    font-family: 'Noto Sans';
+    font-weight: 200px;
+}
+#carrinho img {
+    border-left: 1px solid #fff;
+    margin-left: 9px;
+    padding-left: 10px;
+    width: 100%;
+    max-width: 42px;
+}
+
+.conteudo-banner h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #5271FF;
+    text-shadow: -1.4px 1.4px 0 red,
+    0.9px -0.9px 0 #00ffff;
+    font-size: 80px; 
+}
+
+.conteudo-banner a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+    color: #5271FF;
+    text-shadow: -0.5px 0.5px 0 red,
+    0.5px -0.5px 0 #00ffff; 
+    padding: 11px 50px;
+    background-color: white;
+    border-radius: 35px;
+
+}
+.conteudo-banner {
+    width: 530px;
+    height: 250px;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.posicionamento-banner {
+    justify-content: flex-start;
+    height: 90%;
+}
+.sections {
+    padding: 10px;
+}
+.conteudo-sections img {
+    width: 100%;
+    max-width: 70px;
+}
+.container-grid-img {
+    justify-content: space-around;
+}
+.container-grid-img img {
+    width: 100%;
+    max-width: 25px;
+}
+.container-grid-img button {
+    background-color: #202020;
+    border: none;
+    padding: 4.4px 10px;
+    border-radius: 0 2px 2px 0;
+}
+.sections {
+    background: rgba(204, 204, 204, .5);
+    height: 135px;
+}
+.conteudo-sections {
+    justify-content: space-between;
+    margin: 10px;
+}
+.conteudo-sections img {
+    width: 100%;
+    max-width: 70px;
+    border-radius: 50%;
+}
+.sections a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.sections p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.aviso-promocao {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px;
+}
+.aviso-promocao h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+.aviso-promocao p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px;
+    font-size: 10px;
+    text-decoration: none;
+    color: #212529;
+}
+
+
+
+.card img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+}
+.nome-produto {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11.8px;
+    margin: 4px;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    color: #ffffff;
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+}
+.card button {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 13px;
+    letter-spacing: -0.04em;
+    background-color: #151515;
+    color: #ffffff;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    letter-spacing: 0.025em;
+    font-stretch: condensed;
+}
+.card-produtos h4 {
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 17px;
+    font-weight: bolder;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.card-2 {
+    background-color: #252525;
+    padding: 7px;
+  }
+.card {  
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding-left: 0%;
+    padding-right: 0%;
+    margin: 25px;
+    width: 195px;
+    height: 260px;
+    transition: all 0.3s ease-out;
+    background-color: #252525;
+    border-radius: 0%;
+    border-radius: 0 0 4px 4px;
+  }
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+.card-produtos {
+    display: flex;
+    align-items: center;
+    background-color: rgba(204, 204, 204, 0.5);
+    margin: 2.3vw 0 2.3vw 0;
+
+}
+
+
+footer {
+    background-color: #101010;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+footer img {
+    width: 100%;
+    max-width: 22px;
+}
+.contatos-redes-sociais img {
+    margin-right: 10px;
+}
+.logo2 {
+    width: 100%;
+    max-width: 15%;
+    margin: 10px;
+}
+.fim-footer {
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+.location {
+    display: inline-flex;
+    align-items: center;
+    margin: 5px;
+}
+.contatos-redes-sociais p {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+#newsletter {
+    text-transform: uppercase;
+    background-color: #202020;
+    width: 420px;
+    height: 220px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+.formulario {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.checkbox {
+    margin: 10px;
+    align-self: center;
+}
+.formulario button {
+    border-radius: 4px;
+    height: 27px;
+    width: 100%;
+    max-width: 23%;
+    margin: 10px auto;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 11.5px;
+    font-weight: 550;
+    background-color: #ffffff;
+    border: none;
+}
+.checkbox a {
+    color: #ffffff;
+    font-size: 9.5px;
+    display: flex;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
+}
+#newsletter legend {
+    color: #ffffff;
+    font-family: 'Opens Sans Hebrew', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px 10px 10px  10px;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    width: 100%;
+}
+#campo-email{
+    width: 90%;
+    border-radius: 2px;
+    height: 32px;
+    border: none;
+    font-family: 'Noto', sans-serif;
+}
+#campo-email::placeholder {
+    color: #000000;
+    font-size: 10px;
+    padding: 10px;
+    font-weight: normal;
+}
+.contatos-redes-sociais  a {
+    text-decoration: none;
+    margin: 60px 0;
+}
+.contatos-redes-sociais h3 {
+    margin: 50px 0 10px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    letter-spacing: -0.03em;
+    font-weight: 550;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .container-grid {
+        width: 75vw;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    #barras {
+        display: inline-block;
+    }
+
+    .cabecalho {
+        position: relative;
+    
+    }
+
+    .menu {
+        display: none;
+
+        position: absolute;
+
+        top: 90px;
+        right: 0;
+
+        height: 300px;
+        width: 100vw;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #101010;
+        border: none;
+    }
+
+    .menu-ativo {
+        display: flex;
+    }
+
+    .menu a {
+        font-size: 19px;
+    }
+
+    .header-gamemania {
+        height: 90px;
+    }
+    .cabecalho input {
+        padding: 9px 70px;
+    }
+
+    .cabecalho button {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    .cabecalho input {
+        padding: 9px 50px;
+    }
+
+    .cabecalho button {
+        display: none;
+    }
+}
