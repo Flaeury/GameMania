@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     let slideAtual = 1
-    let listaSlides = ["banner-promocao", "banner-mouse", "banner-cadeira", "banner-kit"]
+    let listaSlides = ["banner-promocao", "banner-mouse", "banner-kit", "banner-cadeira"]
 
     setInterval(mudarSlide, 2500)
 
