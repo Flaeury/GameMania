@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     let slideAtual = 1
-    let listaSlides = ["banner-promocao", "banner-gabinete", "banner-mouse"]
+    let listaSlides = ["banner-promocao", "banner-mouse", "banner-cadeira", "banner-kit"]
 
     setInterval(mudarSlide, 2500)
 
@@ -24,12 +24,12 @@ $(document).ready(function(){
         //indicar qual slide atual
         slideAtual++
 
-        if (slideAtual > 2) {
+        if (slideAtual > 3) {
             slideAtual = 0
         }
 
-        if (slideAtual > 0) {
-            $("#carrossel").removeClass("conteudo-banner")
+        if (slideAtual != 0) {
+            $("#carrossel").removeClass("#conteudo-do-banner");
         }
     }
 
