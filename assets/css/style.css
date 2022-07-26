@@ -15,7 +15,7 @@ header {
     margin: 0 0 0 0;
 }
 .container-grid {
-    width: 75vw;
+    width: 75vw !important;
     margin: 0 auto;
 }
 .container {
@@ -75,10 +75,10 @@ header {
   }
 
 .banner {
-    background-repeat: no-repeat;
-    height: 60vh;
-    width: 75vw;
-    
+    background-repeat: no-repeat; 
+    margin: 0 auto;
+    height: 30vw;
+    width: 72.5vw;
     background-position: center;
     background-size: contain;
 }
@@ -118,11 +118,11 @@ header {
     font-weight: lighter;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-    margin-right: 21.9vw;
+    margin-right: 17vw;
 }
 
 #carrinho {
-    margin-left: 21.9vw;
+    margin-left: 23vw;
 }
 
 #carrinho a {
@@ -183,13 +183,49 @@ header {
     justify-content: flex-start;
     height: 90%;
 }
+
+
+
+
+.sect {
+    display: flex;
+    align-items: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
 .sections {
+    background: rgba(204, 204, 204, .5);
+    height: 135px;
+    align-items: center;
     padding: 10px;
+    width: 75vw;
+    margin: 0 auto;
+}
+.conteudo-sections {
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+.sections a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+.sections p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 15px;
+    align-items: center;
 }
 .conteudo-sections img {
     width: 100%;
     max-width: 70px;
+    border-radius: 50%;
 }
+
+
 .container-grid-img {
     justify-content: space-around;
 }
@@ -203,30 +239,7 @@ header {
     padding: 4.4px 10px;
     border-radius: 0 2px 2px 0;
 }
-.sections {
-    background: rgba(204, 204, 204, .5);
-    height: 135px;
-}
-.conteudo-sections {
-    justify-content: space-between;
-    margin: 10px;
-}
-.conteudo-sections img {
-    width: 100%;
-    max-width: 70px;
-    border-radius: 50%;
-}
-.sections a {
-    text-align: center;
-    text-decoration: none;
-    color: black;
-}
-.sections p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    margin-top: 10px;
-    font-size: 15px;
-}
+
 .aviso-promocao {
     text-transform: uppercase;
     text-align: center;
@@ -245,7 +258,7 @@ header {
 
 
 
-.card img{
+.card img {
     max-width: 100%;
     max-height: 100%;
     width: 100%;
@@ -302,7 +315,7 @@ header {
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding-left: 0%;
     padding-right: 0%;
-    margin: 25px;
+    margin: 30px;
     width: 195px;
     height: 260px;
     transition: all 0.3s ease-out;
@@ -319,7 +332,10 @@ header {
     align-items: center;
     background-color: rgba(204, 204, 204, 0.5);
     margin: 2.3vw 0 2.3vw 0;
-
+}
+.produtos {
+    width: 75vw;
+    margin: 0 auto;
 }
 
 
@@ -447,6 +463,11 @@ footer img {
     header {
         height: 100px;
     }
+    .banner {
+        margin: 0 auto;
+        width: 60vw;
+        height: 25vw;
+    }
     .logo {
         max-width: 7vw;
         padding-right: 0.5vw;
@@ -459,16 +480,16 @@ footer img {
     }
     .menu { 
         width: auto;
-        margin-left: 1vw;
+        margin-left: 2vw;
         padding-left: 0%;    
     }
     .menu a{
-        font-size: 18px;
+        font-size: 20px;
         margin: 0.8vw;
         justify-content: space-between;
     }
     .cabecalho input {
-        padding: 1.3vh 6.5vw;
+        padding: 1vh 6.4vw;
         margin-left: 30px;
         margin-right: 0%;
     }
@@ -478,34 +499,147 @@ footer img {
         margin: 100%;
         display: block;
     }
+    .cabecalho button {
+        padding: 0.52vh 0.4vw;
+    }
+
+    .conteudo-banner {
+        width: 27vw;
+    }
     .initial {
         justify-content: space-between;
         width: 59vw;
     }
     .initial-pai {
-        margin: 3vh 0 3vh 0;
-        max-width: 74vw;
+        margin: 2.3vh 0 2.3vh 0;
         align-items: center;
         justify-content: space-around;
     }
     .initial h1 {
-        font-size: 25px;
-        margin-right: 2vw;
+        font-size: 27px;
+        margin-right: 1.5vw;
     }   
     #carrinho {
-        margin-left: 2vw;
-        size: 10vw;
+        margin-left: 1.5vw;
+    }
+    #carrinho a {
+        width: 166px;
+        height: 60px;
+    }
+    #carrinho p {
+        padding-left: 14px;
+        font-size: 17px;
+    }
+    #carrinho img {
+        border-left: 1px solid #fff;
+        margin-left: 10px;
+        padding-left: 10px;
+        width: 100%;
+        max-width: 44px;
+    }
+    .sections {
+        margin: 0 auto;
+        width: 60.2vw;
+    }
+    .conteudo-sections p {
+        font-size: 18.5px;
+    }
+    .aviso-promocao h1 {
+        font-size: 23px;
+    }
+    .aviso-promocao p {
+        font-size: 13.2px;
+    }
+    .produtos {
+        width: 60vw;
+        margin: 0 auto;
+    }
+    .afooter {
+        margin: 0 auto;
+        max-width: 59vw;
     }
 }
     
 
-
-
 @media screen and (max-width: 1200px) {
-    .container-grid {
-        width: 75vw;
+    .cabecalho input {
+        padding: 1vh 4.1vw;
     }
-
+    .conteudo-banner {
+        max-width: 40vw;
+        max-height: 16.5vw;
+    }
+    .conteudo-banner h1{
+        font-size: 60px;
+    }
+    .initial h1 {
+        margin-right: 5vw;
+        font-size: 22px;
+    }
+    .banner {
+        margin: 0 auto;
+        padding: 0%;
+    }
+    .conteudo-banner a {
+        padding: 11px 35px;
+    }
+    .conteudo-sections img {
+        width: 100%;
+        max-width: 5vw;
+    }
+    .conteudo-sections p {
+        font-size: 13.4px;
+    }   
+    .nome-produto {
+        font-size: 8.3px;
+    }
+    .card button {
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        font-size: 8.9px;
+    }
+    .card {  
+        margin: 23px;
+        width: 150px;
+        height: 205px;
+    }
+    .menu a{
+        font-size: 13.9px;
+    }
+    #newsletter {
+        width: 326px;
+        height: 178px;
+        border-radius: 5px;
+    }
+    .formulario {
+        padding: 10px;
+    }
+    .checkbox {
+        margin: 8px;
+    }
+    .formulario button {
+        height: 22px;
+        width: 100%;
+        max-width: 23%;
+        margin: 7px auto;
+        font-size: 8.7px;
+    }
+    .checkbox a {
+        font-size: 6.5px;
+    }
+    #newsletter legend {
+        font-size: 10.7px;
+    }
+    #campo-email{
+        width: 85%;
+        border-radius: 2px;
+        height: 24px;
+    }
+    .afooter {
+        max-width: 70vw;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -555,6 +689,8 @@ footer img {
         display: none;
     }
 
+
+
 }
 
 @media screen and (max-width: 750px) {
@@ -566,4 +702,12 @@ footer img {
     .cabecalho button {
         display: none;
     }
+}
+
+@media screen and (max-width: 550px) {
+
+}
+
+@media screen and (max-width: 330px) {
+
 }
