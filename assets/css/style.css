@@ -551,6 +551,7 @@ footer img {
     height: 2px;
     background-color: #00ffff;
     transition-duration: .25s;
+    z-index: 2;
   }
   .menu__btn > span::before {
     content: '';
@@ -573,6 +574,7 @@ footer img {
     background-color: #101010;
     box-shadow: 2px 2px 6px rgba(50, 50, 50, .4);
     transition-duration: .25s;
+    z-index: 1;
   }
   .menu__item {
     display: block;
