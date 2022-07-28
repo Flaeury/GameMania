@@ -456,7 +456,7 @@ footer img {
 .slider {
     overflow: hidden;
     background-color: rgba(204, 204, 204, .5);
-    height: 16vw;
+    height: 15.54vw;
     display: none;
     margin-top: 1.5vw;
 }
@@ -488,10 +488,10 @@ footer img {
     width: 52.9vw;
     text-align: center;
     justify-content: space-between;
-    font-size: 1.78vw;
-    margin: 1.2vw 0.65vw 0 0.65vw;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-size: 1.59vw;
+    margin: 1.11vw 0.65vw 0 0.65vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     text-transform: uppercase;
 }
 .sections-carousel {
@@ -500,6 +500,7 @@ footer img {
     width: 75vw;
     margin: 0 auto;
 }
+
 .sections-carousel a {
     text-align: center;
     text-decoration: none;
@@ -514,7 +515,80 @@ footer img {
     align-items: center;
 }
 
-
+#menu__toggle {
+    opacity: 0;
+    width: 0%;
+    margin: 0%;
+    padding: 0%;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    right: 0 !important;
+  }
+  .menu__btn {
+    position: relative;
+    width: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #00ffff;
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    max-width: 23.7vw;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #101010;
+    box-shadow: 2px 2px 6px rgba(50, 50, 50, .4);
+    transition-duration: .25s;
+  }
+  .menu__item {
+    display: block;
+    padding: 17px 24px;
+    color: rgb(220, 220, 220);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.21vw;
+    font-weight: 550;
+    text-decoration: none;
+    transition-duration: .25s;
+    text-transform: uppercase;
+    letter-spacing: 0.15vw;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+    color: #47a3e9;
+  }
 
 @media screen and (min-width: 2000px) {
     .container-grid {
@@ -632,15 +706,21 @@ footer img {
     .cabecalho input {
         padding: 0.53vw 4.5vw;
     }
+    .conteudo-sections img {
+        width: 4.58vw;
+    }
     .cabecalho button {
         padding: 0.12vw 0.47vw;
     }
     .conteudo-banner {
-        max-width: 40vw;
-        max-height: 15vw;
+        width: 32vw;
+        height: 12vw;
     }
     .conteudo-banner h1{
-        font-size: 60px;
+        font-size: 3.9vw;
+    }
+    .conteudo-banner a {
+        padding: 0.8vw 1.97vw;
     }
     .menu {
         width: 25.9vw;
@@ -656,13 +736,6 @@ footer img {
         margin: 0 auto;
         padding: 0%;
         width: 63vw;
-    }
-    .conteudo-banner a {
-        padding: 11px 35px;
-    }
-    .conteudo-sections img {
-        width: 100%;
-        max-width: 5vw;
     }
     .conteudo-sections p {
         font-size: 13.4px;
@@ -728,7 +801,8 @@ footer img {
 
 @media screen and (max-width: 1020px) {
     #barras {
-        display: inline-block;
+        display: flex;
+        align-items: center;
     }
     .cabecalho {
         position: relative;
@@ -738,16 +812,6 @@ footer img {
     }
     .menu {
         display: none;
-        position: absolute;
-        top: 90px;
-        right: 0;
-        height: 300px;
-        width: 100vw;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        background-color: #101010;
-        border: none;
     }
     .initial h1 {
         font-size: 1.45vw;
@@ -772,7 +836,6 @@ footer img {
     display: flex;
     align-items: center;
     align-self: center;
-
     }
     .pesquisa-produtos {
         margin: 0 6vw 0 0;
@@ -783,28 +846,124 @@ footer img {
         margin-left: 2vw;
         max-width: 10.5vw !important;
     }
-    .conteudo-banner h1{
-        font-size: 4.8vw;
-    }
-
     .aviso-promocao h1{
         font-size: 1.39vw;
     }
     .aviso-promocao p {
         font-size: 0.85vw;
     }
+    .conteudo-banner h1{
+        font-size: 4.27vw;
+    }
     .conteudo-banner {
-        height: 13.7vw;
+        height: 12.8vw;
+        width: 34.8vw;
     }
     .conteudo-banner a {
-        font-size: 1.3vw;
+        font-size: 1.2vw;
         margin: 0 auto;
-        padding: 0.9vw 2.5vw;
+        padding: 0.65vw 2.18vw;
+    } 
+    .footer  {
+        display: inline-grid;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        text-align: center;
     }
-
+    #newsletter {
+        text-transform: uppercase;
+        background-color: #202020;
+        width: 420px;
+        height: 220px;
+        border-radius: 5px;
+        text-align: center;
+        align-items: center;
+    }
+    .formulario {
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+    .checkbox {
+        margin: 10px;
+        align-self: center;
+    }
+    .formulario button {
+        border-radius: 4px;
+        height: 27px;
+        width: 100%;
+        max-width: 23%;
+        margin: 10px auto;
+        font-family: 'Noto Sans', sans-serif;
+        text-transform: uppercase;
+        font-size: 11.5px;
+        font-weight: 550;
+        background-color: #ffffff;
+        border: none;
+    }
+    .checkbox a {
+        color: #ffffff;
+        font-size: 9.5px;
+        display: flex;
+        font-weight: lighter;
+        font-family: 'Open Sans', sans-serif;
+        padding-left: 10px;
+    }
+    #newsletter legend {
+        color: #ffffff;
+        font-family: 'Opens Sans Hebrew', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        padding: 25px 10px 10px  10px;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        width: 100%;
+    }
+    #campo-email{
+        width: 90%;
+        border-radius: 2px;
+        height: 32px;
+        border: none;
+        font-family: 'Noto', sans-serif;
+    }
+    #campo-email::placeholder {
+        color: #000000;
+        font-size: 10px;
+        padding: 10px;
+        font-weight: normal;
+    }
+    .contatos-redes-sociais  h3 {
+       font-size: 1.8vw; 
+    }
+    .contatos-redes-sociais  p {
+        font-size: 1.78vw;
+    }
+    .fim-footer {
+        font-size: 1.78vw;
+    }
+    .cont-red {
+        align-items: center;
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .conteudo-sections {
+        margin-top: 0.65vw;
+    }
+    .conteudo-sections img {
+        width: 5.11vw;
+    }
+    .conteudo-sections p {
+        font-size: 1.42vw;
+    }
+    .logo2 {
+        max-width: 13vw;
+    }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 760px) {
 
     .cabecalho input {
         padding: 9px 50px;

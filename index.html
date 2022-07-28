@@ -41,9 +41,19 @@
                 </nav>
 
                 <!--MENU HAMBURGUER-->
+                <div class="hamburger-menu" id="barras">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
                 
-            
-                <a href="#" id="barras"><img class="icone-menu" src="./assets/css/icons/menu.png" alt="icone hamburguer"></a>
+                    <ul class="menu__box  container" >
+                        <li><a class="menu__item" href="#">Home</a></li>
+                        <li><a class="menu__item" href="#">Contato</a></li>
+                        <li><a class="menu__item" href="#">Sobre nós</a></li>
+                        <li><a class="menu__item" href="#">Entrar/Cadastrar</a></li>
+                    </ul>
+                  </div>
             </div>
         </header>
         <!-- Main -->
@@ -116,7 +126,7 @@
             <!--CARROSSEL-->
             <section class="slider">
                     <input  class="slide-btn button-slide" name='slide' type="image" src="./assets/css/icons/left-arrow.png" checked>
-                    <h3 class="button-slide" style="margin-top: 0%;"> Filtre aqui a sua categoria: </h3>
+                    <h3 class="button-slide" style="margin-top: 0%; margin-bottom: 0%;"> Filtre aqui a sua categoria: </h3>
                     <input  class="slide-btn button-slide" name='slide' type="image" src="./assets/css/icons/chevron.png">
                 <div class="slider-content">
                     <div class="slider-item">
@@ -323,21 +333,21 @@
         </main>
 
          <!-- FOOTER -->
-        <footer class="d-flex align-items-center">
+        <footer>
             <div class="afooter align-items-center container-grid">
                 <div class="align-items-center footer">
                     <!--CONTATOS-->
                     <section class="contatos-redes-sociais">
                         <h3>Contatos</h3>
-                        <a href="" class="d-flex">
+                        <a href="" class="d-flex cont-red">
                             <img src="./assets/css/icons/whatsapp.png">
                             <p>+55 91 4002-8922</p>
                         </a>
-                        <a href="#" class="d-flex">
+                        <a href="#" class="d-flex cont-red">
                             <img src="./assets/css/icons/messenger.png">
                             <p>Game Mania</p>
                         </a>
-                        <a href="" class="d-flex">
+                        <a href="" class="d-flex cont-red">
                             <img src="./assets/css/icons/email.png">
                             <p>contact.gamemania@gmail.com</p>
                         </a>
@@ -372,15 +382,15 @@
                     <!-- REDES SOCIAIS-->
                     <section class="contatos-redes-sociais">
                         <h3>Redes Sociais</h3>
-                        <a href="" class="d-flex">
+                        <a href="" class="d-flex cont-red">
                             <img src="./assets/css/icons/twitter.png">
                             <p>@GameMania</p>
                         </a>
-                        <a href="" class="d-flex">
+                        <a href="" class="d-flex cont-red">
                             <img src="./assets/css/icons/instagram.png">
                             <p>@GameMania_Br</p>
                         </a>
-                        <a href="" class="d-flex">
+                        <a href="" class="d-flex cont-red">
                             <img src="./assets/css/icons/youtube.png">
                             <p>https://gamemania.com</p>
                         </a>

@@ -43,10 +43,10 @@ $(document).ready(function(){
 
     
     $("#barras").click(function(){
-       if ($("#menu").hasClass("menu-ativo")) {
-            $("#menu").removeClass("menu-ativo")
+       if ($("hamburger-menu").hasClass("menu-ativo")) {
+            $("hamburger-menu").removeClass("menu-ativo")
        }else{
-            $("#menu").addClass("menu-ativo")
+            $("hamburger-menu").addClass("menu-ativo")
        }
     })
 })
