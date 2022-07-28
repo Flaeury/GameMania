@@ -162,18 +162,18 @@ header {
 }
 .conteudo-banner a {
     font-family: 'Poppins', sans-serif;
-    font-size: 19px;
+    font-size: 0.99vw;
     text-decoration: none;
     color: #5271FF;
     text-shadow: -0.5px 0.5px 0 red,
     0.5px -0.5px 0 #00ffff; 
-    padding: 11px 50px;
+    padding: 11px 40px;
     background-color: white;
     border-radius: 35px;
 }
 .conteudo-banner {
     width: 530px;
-    height: 210px;
+    height: 11.5vw;
     flex-direction: column;
     justify-content: space-between;
     display: flex;
@@ -453,17 +453,18 @@ footer img {
     font-weight: 550;
 }
 
-.slider{
+.slider {
     overflow: hidden;
+    background-color: rgba(204, 204, 204, .5);
+    height: 16vw;
+    display: none;
+    margin-top: 1.5vw;
 }
 .slider > .slider-content{
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
     transition: all 500ms ease;
-}
-.slider {
-    display: none;
 }
 .slider > .slider-content > .slider-item {
     flex: 0 0 auto;
@@ -473,16 +474,44 @@ footer img {
     transform: translateX(0%);
 }
 
-.slider > input:nth-child(2):hover ~ .slider-content{
+.slider > input:nth-child(3):hover ~ .slider-content{
     transform: translateX(-100%);
 }
 .slide-btn {
-    display: inline-block;
-    justify-content: space-around;
-    width: 100%;
-    max-width: 3.1vw;
+    max-width: 2.7vw;
     align-items: center;
+}
+.button-slide {
+    margin: 0 auto;
     display: inline-block;
+    align-items: center;
+    width: 52.9vw;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 1.78vw;
+    margin: 1.2vw 0.65vw 0 0.65vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.sections-carousel {
+    align-items: center;
+    padding: 0 10px 10px 10px;
+    width: 75vw;
+    margin: 0 auto;
+}
+.sections-carousel a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+.sections-carousel p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 15px;
+    align-items: center;
 }
 
 
@@ -694,6 +723,7 @@ footer img {
     .afooter {
         max-width: 63vw;
     }
+
 }
 
 @media screen and (max-width: 1020px) {
@@ -754,7 +784,7 @@ footer img {
         max-width: 10.5vw !important;
     }
     .conteudo-banner h1{
-        font-size: 5vw;
+        font-size: 4.8vw;
     }
 
     .aviso-promocao h1{
@@ -763,7 +793,14 @@ footer img {
     .aviso-promocao p {
         font-size: 0.85vw;
     }
-
+    .conteudo-banner {
+        height: 13.7vw;
+    }
+    .conteudo-banner a {
+        font-size: 1.3vw;
+        margin: 0 auto;
+        padding: 0.9vw 2.5vw;
+    }
 
 }
 
