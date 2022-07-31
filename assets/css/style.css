@@ -454,6 +454,7 @@ footer img {
     font-weight: 550;
 }
 
+
 #menu__toggle {
     opacity: 0;
     width: 0%;
@@ -573,7 +574,9 @@ footer img {
     margin-bottom: 2.3vw;
     justify-content: space-between; 
 }
-
+.pesquisa-produtos2 {
+    display: none !important;
+}
 
 
 
@@ -687,6 +690,26 @@ footer img {
         width: 100%;
         max-width: 7vw;
     }
+}
+@media screen and (max-width: 1570px) {
+    .nome-produto {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 10.15px;
+        margin: 4px;
+        padding: 5px;
+    }
+    .card button {
+        font-size: 11.8px;
+    }
+    .card-2 {
+        background-color: #252525;
+        padding: 7px;
+      }
+    .card {  
+        margin: 30px;
+        width: 173px;
+        height: 237px;
+      }
 }
 @media screen and (max-width: 1300px) {
     .cabecalho input {
@@ -978,6 +1001,19 @@ footer img {
     }
 }
 @media screen and (max-width: 770px) {
+    .menu__item {
+        font-size: 1.47vw;
+    }
+    .menu__box {
+        max-width: 25.7vw;
+      }
+    .logo2 {
+        width: 100%;
+        max-width: 16vw;
+    }
+    .container-grid {
+        width: 64vw !important;
+    }
    .pesquisa-produtos {
     display: none !important;
    }
@@ -995,26 +1031,86 @@ footer img {
     font-size: 1vw;
    }
    .initial h1 {
-    font-size: 1.8vw;
+    font-size: 1.89vw;
    }
    .initial-pai {
-    height: 3vw;
+    margin-top: 1.3vw;
+    height: 3.7vw;
    }
    #carrinho a {
-    width: 8vw;
-    height: 3vw;
+    width: 9.2vw;
+    height: 3.52vw;
    }
    #carrinho p {
-    margin-left: 0.4vw;
-    font-size: 0.7vw;
+    margin-left: 0.54vw;
+    font-size: 0.93vw;
    }
    #carrinho img {
-    padding-left: 0.4vw;
+    padding-left: 0.2vw;
+    width: 100%;
    }
+   .pesquisa-produtos2 {
+    display: flex !important;
+    margin-top: 1.9vw;
+    padding: 0%;
+    height: 4.8vw;
+    width: 64vw;
+    margin-bottom: 0.2vw;
+    }
+    .pesquisa-produtos2 button {
+        margin: 0%;
+    }
+    .cabecalho2 input{
+        background-color: #202020;
+        font-family: 'Noto Sans HK', sans-serif;  
+        padding: 1vw 15.5vw;
+        border: none;
+        margin: 0 auto;
+        color: white;
+        border-radius: 2px 0 0 2px;
+        width: 100%;
+        height: 100%;
+        border-color: transparent;
+    }
+    .cabecalho2 input::placeholder {
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.72vw;
+        opacity: 0.9;
+        display: block;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+    .cabecalho2 button {
+        padding: 1vw 1.7vw;
+        background-color: #202020;
+        border: none;
+        border-style: hidden;
+        margin: 0 auto;
+        border-radius: 0 2px 2px 0;
+        height: 100%;
+        border-color: transparent;
+        align-items: center;
+        display: flex;
+    }
+    .container-grid-img2 img{
+        width: 100%;
+        max-width: 3.6vw;
+    }
+    
 }
-
 @media screen and (max-width: 550px) {
-
+    .logo {
+        width: 100%;
+        max-width: 18.5vw !important;
+    }
+    .menu__box {
+        max-width: 28.41vw;
+    }
+    .menu__item {
+        font-size: 1.76vw;
+    }
 }
 
 @media screen and (max-width: 330px) {
