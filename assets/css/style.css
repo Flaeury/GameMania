@@ -34,7 +34,7 @@ header {
     display: flex;
 }
 .menu a {
-    font-size: 0.93vw;  
+    font-size: 0.88vw;  
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -146,8 +146,8 @@ header {
 }
 #carrinho img {
     border-left: 1px solid #fff;
-    margin-left: 7px;
-    padding-left: 7px;
+    margin-left: 0.48vw;
+    padding-left: 0.55vw;
     width: 100%;
     max-width: 2.23vw;
 }
@@ -530,6 +530,7 @@ footer img {
     color: #47a3e9;
   }
 
+  
 #idslide-carrosel::-webkit-scrollbar {
     background: transparent; 
     display: none;
@@ -687,7 +688,6 @@ footer img {
         max-width: 7vw;
     }
 }
-
 @media screen and (max-width: 1300px) {
     .cabecalho input {
         padding: 0.53vw 4.5vw;
@@ -713,6 +713,7 @@ footer img {
     }
     .menu a {
         justify-content: space-between;
+        font-size: 0.97vw;
     }
     .initial h1 {
         margin-right: 6vw;
@@ -961,7 +962,7 @@ footer img {
         max-width: 13vw;
     }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 850px) {
     .cabecalho button {
         display: none;
     }
@@ -976,13 +977,39 @@ footer img {
         max-width: 12vw !important;
     }
 }
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 770px) {
    .pesquisa-produtos {
     display: none !important;
    }
    .logo {
     width: 100%;
     max-width: 15vw !important;
+   }
+   .card-produtos h4 {
+    font-size:  1.7vw;
+   }
+   .aviso-promocao h1 {
+    font-size: 1.9vw;
+   }
+   .aviso-promocao p {
+    font-size: 1vw;
+   }
+   .initial h1 {
+    font-size: 1.8vw;
+   }
+   .initial-pai {
+    height: 3vw;
+   }
+   #carrinho a {
+    width: 8vw;
+    height: 3vw;
+   }
+   #carrinho p {
+    margin-left: 0.4vw;
+    font-size: 0.7vw;
+   }
+   #carrinho img {
+    padding-left: 0.4vw;
    }
 }
 
