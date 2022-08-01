@@ -53,22 +53,36 @@ header {
     background-color: black;
     font-family: 'Noto Sans HK', sans-serif;
     border: none;
-    padding: 7.8px 85px;
     margin: 10px 0 10px 30px;
     color: white;
     border-radius: 2px 0 0 2px;
+    width: 100%;
+    height: 100%;
+    padding: 0 1.7vw;
+    font-size: 0.84vw;
 }
-
+.pesquisa-produtos {
+    width: 25.7vw;
+    height: 2vw;
+    padding: 0%;
+    display: flex;
+}
 .cabecalho input::placeholder {
     color: white;
+    font-family: 'Noto Sans HK', sans-serif;
     text-transform: uppercase;
-    font-size: 11.5px;
+    font-size: 0.84vw;
     opacity: 0.9;
     display: block;
     width: 100%;
+    height: 100%;
 }
 .cabecalho button {
-    padding: 4.6px 5.1px;
+   height: 100%;
+}
+.pesquisa-produtos img {
+    display: flex;
+    align-items: center;
 }
 
 .initial img{
@@ -216,7 +230,7 @@ header {
 .sections p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    margin-top: 10px;
+    margin-top: 1.04vw;
     font-size: 15px;
     align-items: center;
 }
@@ -244,14 +258,14 @@ header {
 .aviso-promocao {
     text-transform: uppercase;
     text-align: center;
-    margin: 20px;
+    margin: 1.5vw;
 }
 .aviso-promocao h1 {
     font-family: 'Montserrat', sans-serif;
 }
 .aviso-promocao p {
     font-family: 'Montserrat', sans-serif;
-    margin: 15px;
+    margin: 1.2vw;
     font-size: 10px;
     text-decoration: none;
     color: #212529;
@@ -431,7 +445,7 @@ footer img {
 #campo-email{
     width: 90%;
     border-radius: 2px;
-    height: 32px;
+    height: 1.85vw;
     border: none;
     font-family: 'Noto', sans-serif;
 }
@@ -443,7 +457,7 @@ footer img {
 }
 .contatos-redes-sociais  a {
     text-decoration: none;
-    margin: 60px 0;
+    margin: 4.01vw auto;
 }
 .contatos-redes-sociais h3 {
     margin: 50px 0 10px;
@@ -477,7 +491,7 @@ footer img {
   }
   .menu__btn {
     position: relative;
-    width: 26px;
+    width: 25px;
     cursor: pointer;
   }
   .menu__btn > span,
@@ -516,7 +530,7 @@ footer img {
   }
   .menu__item {
     display: block;
-    padding: 17px 24px;
+    padding: 2vw 2vw;
     color: rgb(220, 220, 220);
     font-family: 'Roboto', sans-serif;
     font-size: 1.21vw;
@@ -588,7 +602,7 @@ footer img {
         font-size: 19px;
     }
     header {
-        height: 100px;
+        height: 5vw;
     }
     .banner {
         margin: 0 auto;
@@ -610,23 +624,31 @@ footer img {
         margin-left: 1.5vw;  
     }
     .menu a{
-        font-size: 16.5px;
-        margin: 0.8vw;
+        font-size: 0.86vw;
+        margin: 0.65vw;
         justify-content: space-between;
     }
+    .pesquisa-produtos {
+        width: 27vw;
+        height: 2.3;
+    }
     .cabecalho input {
-        padding: 0.43vw 5.5vw;
-        margin-left: 30px;
-        margin-right: 0%;
+        width: 100%;
+        height: 100%;
+        font-size: 0.7vw;
     }
     .cabecalho input::placeholder {
-        font-size: 78.5%;
-        max-width: 100%;
-        margin: 100%;
-        display: block;
+        width: 100%;
+        height: 100%;
+        font-size: 0.7vw;
     }
     .cabecalho button {
-        padding: 0.16vw 0.4vw;
+        height: 100%;
+        width: 2.4vw;
+    }
+    .pesquisa-produtos img {
+        width: 100%;
+        max-width: 8vw;
     }
 
     .conteudo-banner {
@@ -712,8 +734,9 @@ footer img {
       }
 }
 @media screen and (max-width: 1300px) {
-    .cabecalho input {
-        padding: 0.53vw 4.5vw;
+    .pesquisa-produtos {
+        width: 26.9vw;
+        height: 2.37vw;
     }
     .conteudo-sections img {
         width: 4.58vw;
@@ -818,6 +841,7 @@ footer img {
     #barras {
         display: flex;
         align-items: center;
+        margin-left: 11.7vw;
     }
     .sections {
         background: rgba(204, 204, 204, .5);
@@ -846,37 +870,31 @@ footer img {
         font-size: 1.42vw;
     }
     .pesquisa-produtos {
-        margin: 0 6vw 0 0;
+        width: 33.1vw;
+        height: 3vw;
+    }
+    .pesquisa-produtos input::placeholder {
+        font-size: 1vw;
+    }
+    .pesquisa-produtos input {
+        font-size: 1vw;
+    }
+    .logo {
+        width: 100%;
+        max-width: 10.7vw;
     }
 }
 @media screen and (max-width: 1020px) {
-    .cabecalho {
-        position: relative;
-    }
-    
     .banner {
         width: 64vw;
     }
-    
     .initial h1 {
         font-size: 1.45vw;
-    }
-    
+    } 
     .header-gamemania {
         height: 90px;
     }
-    .cabecalho input {
-    display: flex;
-    align-items: center;
-    align-self: center;
-    }
-    
-    .logo {
-        margin: 0%;
-        width: 100%;
-        margin-left: 2vw;
-        max-width: 10.5vw !important;
-    }
+
     .aviso-promocao h1{
         font-size: 1.39vw;
     }
@@ -979,8 +997,7 @@ footer img {
         display: flex;
         text-align: center;
         margin: 0 auto;
-    }
-    
+    } 
     .logo2 {
         max-width: 13vw;
     }
@@ -989,15 +1006,23 @@ footer img {
     .cabecalho button {
         display: none;
     }
+    .pesquisa-produtos {
+        height: 3.4vw;
+        width: 35.5vw;
+    }
     .cabecalho input {
-        padding: 0.75vw 4.7vw;
+        margin: 0 2vw;
+        font-size: 1.16vw;
     }
     .cabecalho input::placeholder {
-        text-align: center;
+        font-size: 1.16vw;
     }
     .logo {
         width: 100%;
         max-width: 12vw !important;
+    }
+    #barras {
+        margin-left: 6.2vw;
     }
 }
 @media screen and (max-width: 770px) {
@@ -1011,15 +1036,13 @@ footer img {
         width: 100%;
         max-width: 16vw;
     }
-    .container-grid {
-        width: 64vw !important;
-    }
    .pesquisa-produtos {
     display: none !important;
    }
    .logo {
     width: 100%;
     max-width: 15vw !important;
+    margin: 0%;
    }
    .card-produtos h4 {
     font-size:  1.7vw;
@@ -1038,16 +1061,17 @@ footer img {
     height: 3.7vw;
    }
    #carrinho a {
-    width: 9.2vw;
-    height: 3.52vw;
+    width: 11.45vw;
+    height: 4.55vw;
    }
    #carrinho p {
     margin-left: 0.54vw;
-    font-size: 0.93vw;
+    font-size: 1.23vw;
    }
    #carrinho img {
     padding-left: 0.2vw;
     width: 100%;
+    max-width: 2.8vw;
    }
    .pesquisa-produtos2 {
     display: flex !important;
@@ -1063,7 +1087,8 @@ footer img {
     .cabecalho2 input{
         background-color: #202020;
         font-family: 'Noto Sans HK', sans-serif;  
-        padding: 1vw 15.5vw;
+        padding: 0 2vw;
+        font-size: 1.72vw;
         border: none;
         margin: 0 auto;
         color: white;
@@ -1077,7 +1102,7 @@ footer img {
         text-transform: uppercase;
         font-size: 1.72vw;
         opacity: 0.9;
-        display: block;
+        display: flex;
         width: 100%;
         height: 100%;
         align-items: center;
@@ -1099,8 +1124,13 @@ footer img {
         max-width: 3.6vw;
     }
     
+
+
+
+
+
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {  
     .logo {
         width: 100%;
         max-width: 18.5vw !important;
@@ -1111,8 +1141,262 @@ footer img {
     .menu__item {
         font-size: 1.76vw;
     }
+    .card-produtos h4 {
+        font-size: 2vw;
+    }
+    .pesquisa-produtos2 {
+        margin-top: 1.9vw;
+        height: 5.3vw;
+        width: 64vw;
+    }
+    .initial h1 {
+        font-size: 2.3vw;
+    }
+    #carrinho a {
+        width: 11.45vw;
+        height: 4.55vw;
+       }
+       #carrinho p {
+        margin-left: 0.54vw;
+        font-size: 1.23vw;
+       }
+       #carrinho img {
+        padding-left: 0.2vw;
+        width: 100%;
+        max-width: 2.8vw;
+    }
+    .aviso-promocao h1 {
+        font-size: 2vw;
+    }
+    .aviso-promocao p {
+        font-size: 1.2vw;
+    }
+    #newsletter {
+    width: 100%;
+    height: 100%;
+    max-width: 59.5vw;
+    max-height: 36vw;
+    align-items: center;
+    display: inline-block;
+    }
+    .formulario {
+        display: inline-block;
+        width: 100%;
+        align-items: center;
+    }
+    .checkbox {
+        margin: 1.6vw;
+    }
+    .formulario button {
+        height: 4.41vw;
+        width: 100%;
+        max-width: 26%;
+        margin: 1.6vw auto;
+        font-size: 1.92vw;
+        display: flex;
+        align-items: center;
+    }
+    .checkbox a {
+        color: #ffffff;
+        font-size: 1.27vw;
+        display: flex;
+        display: flex;
+        align-items: center;
+    }
+    .checkboxa {
+        padding-left: 1vw;
+    }
+   
+    #newsletter legend {
+        text-align: center;
+        padding: 3.81vw 1.67vw 2.5vw 1.67vw;
+        font-size: 1.95vw;
+        letter-spacing: 0.03em;
+        width: 100%;
+        align-items: center;
+        display: flex;
+    }
+    #campo-email{
+        width: 90%;
+        border-radius: 2px;
+        height: 5.9vw;
+        align-items: center;
+        display: inline-block;
+    }
+    #campo-email::placeholder {
+        color: #000000;
+        font-size: 1.68vw;
+        padding: 1.62vw;
+        font-weight: normal;
+        align-items: center;
+        display: flex;
+    }
+    .contatos-redes-sociais h3 {
+        font-size: 2.89vw;
+    }
+    .contatos-redes-sociais p {
+        font-size: 2.72vw;
+    }
+    .fim-footer p {
+        font-size: 2.72vw;
+    }
+    .logo2 {
+        width: 100%;
+        max-width: 19vw;
+    }
 }
-
 @media screen and (max-width: 330px) {
-
+    .menu__box {
+        width: 100%;
+        max-width: 31.55vw !important;
+    }
+    .aviso-promocao {
+        margin: 2.8vw;
+        width: 100%;
+    }
+    .aviso-promocao h1 {
+        font-size: 2.27vw;
+    }
+    .aviso-promocao p {
+        margin-top: 2vw;
+        font-size: 1.4vw;
+    }
+    .menu__item {
+        font-size: 2vw;
+        padding: 2.5vw 2.23vw;
+        font-size: 2.15vw;
+    }
+    .initial-pai {
+        margin: 2.4vw 0 !important;
+    }
+    .logo {
+        width: 100%;
+        max-width: 24vw !important;
+    }
+    .initial h1 {
+        font-size: 2.81vw;
+    }
+    .sections {
+        align-items: center;
+        height: 13.1vw;
+        display: flex;
+    }
+    .conteudo-sections p {
+        font-size: 2vw;
+    }
+    .pesquisa-produtos2 {
+        height: 6.7vw;
+    }
+    .cabecalho2 input::placeholder {
+        font-size: 2.2vw;
+    }
+    .cabecalho2 input{
+        font-size: 2.2vw;
+    }
+    .card-produtos h4 {
+        font-size: 3.05vw;
+    }
+    .card {
+        width: 55%;
+        height: 39%;
+    }
+    .card button {
+        height: 100%;
+        padding: 1.98vw;
+    }
+    .card-2 {
+        padding: 1vw;
+    }
+    .nome-produto {
+        font-size: 2vw;
+        margin: 0.5vw;
+    }
+    .footer img {
+        width: 100%;
+        max-width: 5.5vw;
+    }
+    .fim-footer img {
+        width: 100%;
+        max-width: 5.5vw;
+    }
+    #newsletter {
+        width: 100%;
+        height: 100%;
+        max-width: 58.5vw;
+        max-height: 42.1vw;
+        align-items: center;
+        display: inline-block;
+    }
+    .formulario {
+        display: inline-block;
+        width: 100%;
+        align-items: center;
+    }
+    .checkbox {
+        margin: 1.4vw;
+    }
+    .formulario button {
+        height: 4.41vw;
+        width: 100%;
+        max-width: 26%;
+        margin-top: 3.5vw;
+        font-size: 1.97vw;
+        display: flex;
+        align-items: center;
+    }
+    .checkbox a {
+        color: #ffffff;
+        font-size: 1.78vw;
+        display: flex;
+        display: flex;
+        align-items: center;
+    }
+    
+    #newsletter legend {
+        text-align: center;
+        padding: 3.91vw 1.61vw 2.5vw 1.61vw;
+        font-size: 2.43vw;
+        letter-spacing: 0.03em;
+        width: 100%;
+        align-items: center;
+        display: flex;
+    }
+    #campo-email{
+        width: 90%;
+        border-radius: 2px;
+        height: 5.9vw;
+        align-items: center;
+        display: inline-block;
+    }
+    #campo-email::placeholder {
+        color: #000000;
+        font-size: 2.1vw;
+        padding: 1.62vw;
+        font-weight: normal;
+        align-items: center;
+        display: flex;
+    }
+    .contatos-redes-sociais h3 {
+        font-size: 2.89vw;
+    }
+    .contatos-redes-sociais p {
+        font-size: 2.95vw;
+    }
+    .fim-footer p {
+        font-size: 2.95vw;
+    }
+    .logo2 {
+        width: 100%;
+        max-width: 29vw !important;
+    }
+    .card-produtos {
+        margin: 4vw 0 4vw 0;
+    }
+    .afooter img {
+        width: 100%;
+        max-width: 5.27vw;
+    }
+    .contatos-redes-sociais a {
+        margin: 6.5vw 0;
+    }
 }
