@@ -1245,7 +1245,7 @@ footer img {
         max-width: 19vw;
     }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 300px) {
     .menu__box {
         width: 100%;
         max-width: 31.55vw !important;
