@@ -157,10 +157,10 @@ header {
 #carrinho p {
     padding-left: 0.55vw;
     text-transform: uppercase;
-    font-size: 0.63vw;
+    font-size: 0.6vw;
     color: white;
     font-family: 'Noto Sans';
-    font-weight: 200px;
+    font-weight: 180px;
 }
 #carrinho img {
     border-left: 1px solid #fff;
@@ -1107,7 +1107,7 @@ footer img {
    }
    #carrinho p {
     margin-left: 0.54vw;
-    font-size: 1.07vw !important;
+    font-size: 1.15vw !important;
    }
    #carrinho img {
     padding-left: 0.2vw;
@@ -1474,9 +1474,9 @@ footer img {
         margin: 6.5vw 0;
     }
 }
-@media screen and (max-width: 295px) {
+@media screen and (max-width: 285px) {
     #carrinho p {
-        font-size: 0.84vw !important;
+        font-size: 1vw !important;
     }
     .pesquisa-produtos2 {
         height: 7.5vw !important;
