@@ -145,11 +145,12 @@ iframe {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 100%;
 }
 
 .wrap-login100 {
-  width: 450px;
-  height: 642px;
+  width: 370px;
+  height: 554px;
   background: #101010;
   border-radius: 10px;
   overflow: hidden;
