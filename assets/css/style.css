@@ -1453,6 +1453,9 @@ footer img {
     }
 }
 @media screen and (max-width: 285px) {
+    #carrinho p {
+        font-size: 1.14vw;
+    }
     .container-grid-header {
         width: 64vw !important;
     }
@@ -1480,5 +1483,9 @@ footer img {
     }
     .menu__item {
         font-size: 2.61vw !important;
+    }
+    #newsletter {
+        height: 100%;
+        max-height: 46vw;
     }
 }
