@@ -1296,10 +1296,15 @@ footer img {
         height: 6.4vw;
     }
     #carrinho p {
-        font-size: 1.05vw;
+        font-size: 0.75vw;
+        margin-left: 0.24vw;
     }
     .container-grid {
         width: 69vw;
+    }
+    #carrinho a {
+        max-width: 20vw !important;
+        height: 4.84vw;
     }
     .banner {
         width: 64vw;
@@ -1474,7 +1479,7 @@ footer img {
 }
 @media screen and (max-width: 295px) {
     #carrinho p {
-        font-size: 0.55vw !important;
+        font-size: 0.84vw !important;
     }
     .pesquisa-produtos2 {
         height: 7.5vw !important;
