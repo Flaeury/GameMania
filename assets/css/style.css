@@ -18,6 +18,10 @@ header {
     width: 65vw !important;
     margin: 0 auto;
 }
+.container-grid-header {
+    width: 65vw !important;
+    margin: 0 auto;
+}
 .container {
     width: 100%;
     max-width: 77%;
@@ -598,6 +602,9 @@ footer img {
     .container-grid {
         margin: 0 auto;
     }
+    .container-grid-header {
+        margin: 0 auto;
+    }
     .contatos-redes-sociais p {
         font-size: 19px;
     }
@@ -1003,6 +1010,30 @@ footer img {
     }
 }
 @media screen and (max-width: 850px) {
+    .container-grid-header {
+        width: 62.5vw !important;
+    }
+    .banner {
+        width: 100%;
+        max-width: 63.5vw !important;
+    }
+    .container-grid {
+        width: 68vw !important;
+    }
+    .inital {
+        width: 100%;
+        max-width: 61.5vw !important;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        align-content: space-between;
+    }
+    .inital h1 {
+        margin-right: 0px !important;
+    }
+    #carrinho {
+        margin-left: 0px !important;
+    }
     .cabecalho button {
         display: none;
     }
@@ -1026,6 +1057,13 @@ footer img {
     }
 }
 @media screen and (max-width: 770px) {
+    .container-grid-header {
+        width: 62.5vw !important;
+    }
+    .container-grid {
+        width: 67.2vw !important;
+        align-items: center;
+    }
     .menu__item {
         font-size: 1.47vw;
     }
@@ -1131,6 +1169,13 @@ footer img {
 
 }
 @media screen and (max-width: 550px) {  
+    .container-grid-header {
+        width: 63vw !important;
+    }
+    .container-grid {
+        width: 69vw !important;
+        align-items: center;
+    }
     .logo {
         width: 100%;
         max-width: 18.5vw !important;
@@ -1245,7 +1290,14 @@ footer img {
         max-width: 19vw;
     }
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 330px) {
+    .container-grid-header {
+        width: 66vw !important;
+    }
+    .container-grid {
+        width: 69vw !important;
+        align-items: center;
+    }
     .menu__box {
         width: 100%;
         max-width: 31.55vw !important;
@@ -1398,5 +1450,35 @@ footer img {
     }
     .contatos-redes-sociais a {
         margin: 6.5vw 0;
+    }
+}
+@media screen and (max-width: 285px) {
+    .container-grid-header {
+        width: 64vw !important;
+    }
+    .container-grid {
+        width: 72vw !important;
+        align-items: center;
+    }
+    .card button {
+        font-size: 5.52px;
+    }
+    .nome-produto {
+        font-size: 1.9vw;
+    }
+    .menu__btn {
+        position: relative;
+        width: 20.7px;
+        cursor: pointer;
+      }
+      .logo {
+        width: 100%;
+        max-width: 33vw !important;
+      }
+      .menu__box {
+        max-width: 37.7vw !important;
+    }
+    .menu__item {
+        font-size: 2.61vw !important;
     }
 }
