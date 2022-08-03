@@ -1337,7 +1337,8 @@ footer img {
         font-size: 2vw;
     }
     .pesquisa-produtos2 {
-        height: 6.7vw;
+        height: 7vw;
+        max-width: 61.2vw !important;
     }
     .cabecalho2 input::placeholder {
         font-size: 2.2vw;
@@ -1452,9 +1453,12 @@ footer img {
         margin: 6.5vw 0;
     }
 }
-@media screen and (max-width: 285px) {
+@media screen and (max-width: 295px) {
     #carrinho p {
-        font-size: 1.14vw;
+        font-size: 0.7vw !important;
+    }
+    .pesquisa-produtos2 {
+        height: 7.5vw !important;
     }
     .container-grid-header {
         width: 64vw !important;
@@ -1486,6 +1490,6 @@ footer img {
     }
     #newsletter {
         height: 100%;
-        max-height: 46vw;
+        max-height: 48.5vw;
     }
 }
