@@ -1058,11 +1058,14 @@ footer img {
 }
 @media screen and (max-width: 770px) {
     .container-grid-header {
-        width: 62.5vw !important;
+        width: 65.5vw !important;
     }
     .container-grid {
-        width: 67.2vw !important;
+        width: 69.4vw !important;
         align-items: center;
+    }
+    .container-grid-initial {
+        width: 67.4vw !important;
     }
     .menu__item {
         font-size: 1.47vw;
@@ -1099,12 +1102,12 @@ footer img {
     height: 3.7vw;
    }
    #carrinho a {
-    width: 11.45vw;
-    height: 4.55vw;
+    width: 11.75vw;
+    height: 4.75vw;
    }
    #carrinho p {
     margin-left: 0.54vw;
-    font-size: 1.23vw;
+    font-size: 1.07vw !important;
    }
    #carrinho img {
     padding-left: 0.2vw;
@@ -1115,7 +1118,7 @@ footer img {
     display: flex !important;
     margin-top: 1.9vw;
     padding: 0%;
-    height: 4.8vw;
+    height: 5vw;
     width: 64vw;
     margin-bottom: 0.2vw;
     }
@@ -1161,12 +1164,6 @@ footer img {
         width: 100%;
         max-width: 3.6vw;
     }
-    
-
-
-
-
-
 }
 @media screen and (max-width: 550px) {  
     .container-grid-header {
